@@ -87,6 +87,7 @@ h1 {
 
 .interests {
 	display: none;
+	
 }
 
 
@@ -94,14 +95,8 @@ h1 {
 	
 	  align-self: center;
 	  background-color: rgba(248, 252, 22, 0.74);
-	
-	
-	 
-	  border-width: 2px;
-	 
-	  
+	  border-width: 2px; 
 	  color: #000000;
-	  
 	  display: inline-block;
 	  width: 200px;
 	  font-size: 1rem;
@@ -141,4 +136,35 @@ h1 {
  
 
   
+}
+
+
+.InterestLink {
+	width: 100px;
+	height: 30px;
+	background-color: rgba(94, 164, 255, 0.76);
+	border: black solid 2px;
+	font-size: 20px;
+}
+
+
+.goalsLink{
+	width: 100px;
+	height: 30px;
+	background-color: rgba(94, 164, 255, 0.76);
+	border: black solid 2px;
+	font-size: 20px;
+	
+}
+
+.goalsLink:hover{
+	background-color: red;
+	color: white;
+	
+}
+
+.InterestLink:hover{
+	background-color: red;
+	color: white;
+	
 }
