@@ -1,0 +1,144 @@
+body {
+  background: rgb(255, 255, 255);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;'
+  
+ 
+display: flex;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+
+.comp {
+	display: none;
+}
+
+.profilePic {
+	
+
+  width: 70px;
+  height: 180px;
+  border-radius: 20%;
+  overflow: hidden;
+
+  display:inline-block;
+  vertical-align:middle;
+}
+
+
+.profilePic{
+	width: 40%;
+} 
+
+header {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+h1 {
+	margin-left: 20px;
+
+}
+
+
+
+.profileNav{
+	margin-right: 2em;
+	display: inline;
+}
+
+.goals{
+	display: none;
+}
+
+
+.interests {
+	display: none;
+}
+
+
+#color {
+	
+	  align-self: center;
+	  background-color: rgba(248, 252, 22, 0.74);
+	
+	
+	 
+	  border-width: 2px;
+	 
+	  
+	  color: #000000;
+	  
+	  display: inline-block;
+	  width: 200px;
+	  font-size: 1rem;
+	 
+	}
+	
+
+
+#place {
+	background-color: #ffee00;
+  align-items: center;
+  width: 200px;
+  box-shadow: transparent 0 0 0 3px,rgba(0, 0, 0, 0.1) 0 6px 20px;
+  font-size: 16px;
+  color: #121212;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+
+
+#ritual{
+	margin-top: 20px;
+  background-color: #ffee00;
+  border: black solid 2px;
+  border-radius: 12px;
+  color: #000;
+
+  font-weight: bold;
+ 
+  text-align: center;
+  transition: 200ms;
+  width: 200px;
+  box-sizing: border-box;
+
+ 
+
+  
+}
